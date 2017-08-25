@@ -1,7 +1,14 @@
-# json-editor-online-command-line-tool
+# JSON editor online
+
+[![Build Status](https://travis-ci.org/sunzhongmou/json-editor-online-command-line-tool.svg?branch=master)](https://travis-ci.org/sunzhongmou/json-editor-online-command-line-tool)
+[![Node version](https://img.shields.io/badge/node-%3E%3D4.8.4-brightgreen.svg)](https://www.npmjs.com/package/json-editor-online)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
+CLI tool for opening a local file in [JSON editor online](http://www.jsoneditoronline.cn/). 
+
 JSON editor online command line tool for you to edit you local json file online
 
-![Gif JSON editor online](json-demo.gif)
+![Gif JSON editor online](http://opzmk10r6.bkt.clouddn.com/json-demo.gif)
 
 ### JSON editor online command line - free your hands
 
@@ -22,7 +29,13 @@ NPM package
 ```
 $ npm install -g json-editor-online
 
+$ json -h
+
+$ json -w <filename.json>
+
 $ json <filename.json>
+
+$ json <url>
 
 ```
 
@@ -34,34 +47,24 @@ Videos：
 
 Enjoy!
 
-### JSON在线编缉器命令行工具-解放你的双手
+> 可通过以下方式联系我们(You can contact us the ways below)：
 
-对于JSON这种明星来说，哪哪儿都有对TA无微不至的关怀。各种IDE里已经成了标配、各种在线工具也是体贴入微，该有的功能都有了。
-
-但对于我这种懒人来说，这还是不够简单，还是太麻烦：
-
-1. 打开本地文件，我还得双击或者右击打开文件。
-2. 打开了后还得拷贝
-3. 拷贝好后还得打开网站（首先我得记得住），然后再粘贴到线上编缉器
-
-整修流程还是太繁琐，有没有一种方法，或者一条命令，让我一下子把这些事全都帮我干了？
-
-当然有，下面为大家推荐一个好用的命令行工具：
-
-官方 NPM package
-
-```
-安装：npm install -g json-editor-online
-使用：json <filename.json>
-```
-
-一条命令，解决所有烦恼。不谢！
-
-相关操作视频：
-
-[Youtube](https://www.youtube.com/watch?v=QlXht9L9hEY) 
-
-[Youku](http://v.youku.com/v_show/id_XMjk3MDc2MTcyOA==.html?spm=a2h3j.8428770.3416059.1)
+[![The official website](https://img.shields.io/badge/Official_Website-仲谋科技-brightgreen.svg)](https://www.sunzhongmou.com)
+[![微博](https://img.shields.io/badge/Weibo-仲谋科技-brightgreen.svg)](http://weibo.com/zmtech)
+[![Tweet](https://img.shields.io/badge/Tweet-仲谋科技-brightgreen.svg)](https://twitter.com/szm_tech)
+[![NPM](https://img.shields.io/badge/NPM-仲谋科技-brightgreen.svg)](https://www.npmjs.com/~sunzhongmou)
+[![GitHub](https://img.shields.io/badge/GitHub-仲谋科技-brightgreen.svg)](https://github.com/sunzhongmou)
+[![简书](https://img.shields.io/badge/简书-仲谋科技-brightgreen.svg)](http://www.jianshu.com/u/e41dcab0d8ce)
+[![Youtube](https://img.shields.io/badge/Youtube-仲谋科技-brightgreen.svg)](https://www.youtube.com/channel/UCtEfD4Ut7_0Btqx2Kw104VA)
+[![优酷](https://img.shields.io/badge/优酷-仲谋科技-brightgreen.svg)](http://i.youku.com/ihakula?spm=a2hzp.8244740.0.0)
 
 
+### Others provided by us:
 
+*   [create-wechat-project](/package/create-wechat-project) - **v1.0.0**
+*   [json-editor-online](/package/json-editor-online) - **v1.0.0** - Command line tool for jsoneditoronline.cn
+*   [ri-zhi-yi](/package/ri-zhi-yi) - **v3.0.0** - NPM package for upload your log to https://www.rizhiyi.com/
+*   [chinese-mail](/package/chinese-mail) - **v0.1.6** - Easy to send mail with Chinese mail server, such as 126、163、qq, etc.
+*   [rizhiyi-example](/package/rizhiyi-example) - **v2.0.0** - Example project for using NPM ri-zhi-yi package
+*   [graphql-db](/package/graphql-db) - **v0.0.1** - Graphql webserver api with mongo storage and others
+*   [cloud-object-storage](/package/cloud-object-storage) - **v3.0.1** - cloud object storage for QCloud, QiNiu and local
